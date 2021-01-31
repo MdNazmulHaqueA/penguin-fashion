@@ -29,6 +29,7 @@ h2 {
 }
 h1 {
     font-size: 80px;
+    text-transform: capitalize;
 }
 h2 {
     font-size: 48px;
@@ -36,4 +37,42 @@ h2 {
 h3 {
     font-size: 24px;
     line-height: auto;
+}
+header {
+    background-color: #fffbf0;
+}
+
+/* Navbar */
+
+.nav-item {
+    padding: 15px 18px;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    font-size: 1.2rem;
+    color: #3c3c3c;
+    font-weight: bold;
+}
+.navbar-light .navbar-nav .nav-link:hover {
+    color: #fabe4c;
+}
+
+/* Header Section */
+.header-section {
+    padding-bottom: 5%;
+}
+.header-left-content {
+    padding-top: 10%;
+}
+.header-orange-text {
+    color: #fabe4c;
+}
+.button-styles {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    border: none;
+    background-image: linear-gradient(to bottom, #a2bb43, #9bb542, #94af40, #8eaa3f, #87a43d);
+}
+.button-styles:hover {
+    background-image: linear-gradient(to right, #363958, #363a68, #373b78, #383b88, #3b3b98);
 }
